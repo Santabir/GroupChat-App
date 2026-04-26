@@ -1,0 +1,13 @@
+# Ignore the 200MB+ folder that we can recreate with 'npm install'
+node_modules/
+
+# Ignore production builds
+build/
+
+# Ignore your private environment keys
+.env
+.env.local
+
+# Ignore annoying OS-generated files
+.DS_Store
+Thumbs.db
